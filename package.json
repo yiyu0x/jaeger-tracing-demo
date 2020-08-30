@@ -1,0 +1,27 @@
+{
+  "name": "local_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@opentelemetry/api": "^0.10.2",
+    "@opentelemetry/core": "^0.10.2",
+    "@opentelemetry/exporter-jaeger": "^0.10.2",
+    "@opentelemetry/node": "^0.10.2",
+    "@opentelemetry/plugin-express": "^0.9.0",
+    "@opentelemetry/plugin-http": "^0.10.2",
+    "@opentelemetry/tracing": "^0.10.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
