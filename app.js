@@ -25,6 +25,10 @@ app.get('/app/:argv', (req, res) => {
 })
 
 app.listen(port, () => {
-	console.log(`Listening at http://localhost:${port}`)
+	console.log(`Listening at http://localhost:${port} in container.`)
+	console.log(`Visit Web App at http://localhost/app`)
+	console.log(`Visit Web App at http://localhost/app/any_string`)
+	console.log(`Visit Jaeger at http://localhost:16686`)
+	console.log(`Visit Traefik at http://localhost:8080`)
 })
 
