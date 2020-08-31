@@ -18,8 +18,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "JAEGER_HOST=$JAEGER_HOST nodemon app.js",
+    "start": "JAEGER_HOST=$JAEGER_HOST node app.js"
   },
   "keywords": [],
   "author": "",
