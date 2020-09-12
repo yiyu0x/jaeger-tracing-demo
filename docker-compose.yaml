@@ -9,7 +9,7 @@ services:
       - "--tracing=true"
       - "--tracing.jaeger=true"
       - "--tracing.jaeger.localAgentHostPort=jaeger:6831"
-      - "--tracing.jaeger.propagation=b3"
+      # - "--tracing.jaeger.propagation=b3"
 
       - "--api.insecure=true"
       - "--providers.docker=true"
